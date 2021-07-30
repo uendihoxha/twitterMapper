@@ -19,5 +19,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="twitter4j-stream-4.0.4" level="project" />
+    <orderEntry type="library" name="twitter4j-core-4.0.4" level="project" />
+    <orderEntry type="library" name="JMapViewer" level="project" />
   </component>
 </module>

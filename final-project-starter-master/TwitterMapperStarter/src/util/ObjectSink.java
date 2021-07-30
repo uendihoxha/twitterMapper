@@ -1,26 +1,25 @@
 package util;
 
-import java.io.*;
-
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 
 public class ObjectSink {
-    private File file;
-    private ObjectOutputStream outstream;
+    private ObjectOutputStream outputStream;
 
     public ObjectSink(String filename) {
         try {
-            file = new File(filename);
-            outstream = new ObjectOutputStream(new FileOutputStream(file));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            File file = new File(filename);
+            outputStream = new ObjectOutputStream(new FileOutputStream(file));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void storeObject(Object o) {
+    public void write(Object o) {
         try {
-            outstream.writeObject(o);
+            outputStream.writeObject(o);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -28,7 +27,7 @@ public class ObjectSink {
 
     public void close() {
         try {
-            outstream.close();
+            outputStream.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

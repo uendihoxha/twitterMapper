@@ -18,11 +18,12 @@ public class Scanner {
         // This simple scanner scans the entire input in its constructor, building a list of tokens
         // which it then returns as necessary in response to calls to its peek and advance methods.
         tokens = new LinkedList<>();
-        Matcher m = tokenPattern.matcher(input);
-        while (m.find()) {
-            String token = m.group();
-            // Throw away any white space
-            if (token.matches("\\s+"))  continue;
+        Matcher matcher = tokenPattern.matcher(input);
+        while (matcher.find()) {
+            String token = matcher.group();
+            if (token.matches("\\s+")) {
+                continue;
+            }
             tokens.add(token);
         }
     }
@@ -30,7 +31,8 @@ public class Scanner {
     /**
      * Return the first token remaining, without changing anything.
      * A second call to peek without an intervening call to advance, will return this same token again.
-     * @return      The first remaining token in the input, or null if no tokens remain
+     *
+     * @return The first remaining token in the input, or null if no tokens remain
      */
     public String peek() {
         return tokens.size() > 0 ? tokens.get(0) : null;
@@ -38,10 +40,11 @@ public class Scanner {
 
     /**
      * Advance the input, consuming the current token, and return the first remaining token in the input.
-     * @return      The first remaining token in the input after advancing, or null if no tokens remain
+     *
+     * @return The first remaining token in the input after advancing, or null if no tokens remain
      */
     public String advance() {
         tokens.remove(0);
-        return tokens.size() > 0 ? tokens.get(0) : null;
+        return peek();
     }
 }

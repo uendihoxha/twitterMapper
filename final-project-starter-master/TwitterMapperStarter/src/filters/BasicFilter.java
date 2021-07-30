@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 /**
- * A basic filter that matches every tweet that contains the given word
+ * A basic filter that matches every tweet that contains the given word UENDI
  */
 public class BasicFilter implements Filter {
     final private String word;
@@ -19,16 +19,16 @@ public class BasicFilter implements Filter {
     }
 
     @Override
-    public boolean matches(Status s) {
-        String text = s.getText();
+    public boolean matches(Status status) {
+        String text = status.getText();
         return pattern.matcher(text).matches();
     }
 
     @Override
-    public List<String> terms() {
-        List<String> ans = new ArrayList<>(1);
-        ans.add(word);
-        return ans;
+    public List<String> getTerms() {
+        List<String> terms = new ArrayList<>(1);
+        terms.add(word);
+        return terms;
     }
 
     @Override

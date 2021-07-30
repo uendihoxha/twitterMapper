@@ -6,35 +6,30 @@ import java.io.*;
  * Read objects from a file
  */
 public class ObjectSource {
-    private File file;
-    private ObjectInputStream instream;
+    private ObjectInputStream inputStream;
 
-    public ObjectSource(String filename)  {
-        file = new File(filename);
+    public ObjectSource(String filename) {
+        File file = new File(filename);
         try {
-            instream = new ObjectInputStream(new FileInputStream(file));
+            inputStream = new ObjectInputStream(new FileInputStream(file));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    public Object readObject() {
-        Object o = null;
+    public Object read() {
         try {
-            o = instream.readObject();
-        } catch (EOFException e) {
-            // Do nothing, EOF is expected to happen eventually
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
+            return inputStream.readObject();
+        } catch (EOFException ignored) {
+        } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-        return o;
+        return null;
     }
 
     public void close() {
         try {
-            instream.close();
+            inputStream.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
