@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c0a953-a6cc-4dad-baed-ba3ad9071538" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JMapViewer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/twitter4j_core_4_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/twitter4j_stream_4_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/AndFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/IncorrectSyntaxException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/filters/OrFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twitter/PlaybackTwitterThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twitter/TwitterSourceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/OtherMapMarker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/QueryPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterMapperStarter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filters/BasicFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filters/BasicFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filters/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filters/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filters/NotFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filters/NotFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filters/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filters/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filters/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filters/Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filters/SyntaxError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filters/test/TestFilters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filters/test/TestParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filters/test/TestScanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/query/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/query/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twitter/LiveTwitterSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitter/LiveTwitterSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twitter/PlaybackTwitterSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitter/PlaybackTwitterSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twitter/TwitterSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitter/TwitterSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twitter/test/TestPlaybackTwitterSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/ContentPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/ContentPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/NewQueryPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/NewQueryPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ImageCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ImageCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ObjectSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ObjectSink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ObjectSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ObjectSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/SphericalGeometry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/test/TestImage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
