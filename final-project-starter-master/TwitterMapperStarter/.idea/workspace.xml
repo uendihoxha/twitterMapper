@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c0a953-a6cc-4dad-baed-ba3ad9071538" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/filters/MockStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/filters/TestFilters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/filters/TestParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/filters/TestScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/twitter/TestObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/twitter/TestPlaybackTwitterSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/util/TestImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/util/TestUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterMapperStarter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,18 +310,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../twitterJars/JMapViewer.jar" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\UendiHoxhaProject\final-project-starter-master\TwitterMapperStarter\src" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="twitter" />
     </key>
