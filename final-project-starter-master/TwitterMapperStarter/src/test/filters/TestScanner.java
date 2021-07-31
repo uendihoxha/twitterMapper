@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class TestScanner {
+
     @Test
     public void testBasic() {
         Scanner x = new Scanner("trump");

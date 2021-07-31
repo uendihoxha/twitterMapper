@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c0a953-a6cc-4dad-baed-ba3ad9071538" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/filters/MockStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/filters/TestFilters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/filters/TestParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/filters/TestScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/twitter/TestObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/twitter/TestPlaybackTwitterSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/util/TestImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/util/TestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwitterMapperStarter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/filters/TestScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/filters/TestScanner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
